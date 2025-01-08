@@ -276,6 +276,8 @@ footer{
 }
 .contact{
     flex-basis: 40%;
+    margin: 50px 0;
+    
 }
 .footer-form input[type="text"], input[type="email"], textarea{
     display: block;
