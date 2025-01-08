@@ -43,11 +43,33 @@ body {
   height: 637px;
   background-color: #fff8f3;
   padding: 32px 38px 0px 190px;
-  background-image: url("../assets/header_bg.png"), url("../assets/developer.png");
+  background-image: url("../assets/header_bg.png"),
+    url("../assets/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
   background-size: 650px 410px, 120px 100%;
 }
+
+main {
+  width: 75%;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 120px;
+}
+
+.section-title {
+  font-size: 37px;
+  margin-bottom: 50px;
+}
+
+.section-description {
+  font-size: 12px;
+  color: #757575;
+}
+
+/* End Of shared css */
 
 nav {
   display: flex;
@@ -59,8 +81,8 @@ nav .name {
   font-size: 38px;
   font-weight: 800;
 }
-.name span{
-    color: rgb(255, 97, 5);
+.name span {
+  color: rgb(255, 97, 5);
 }
 nav ul {
   list-style: none;
@@ -113,4 +135,113 @@ nav ul li a {
   width: 470px;
   height: 543px;
   margin-top: 10px;
+}
+
+/* MAIN SECTION--------------------------->>> */
+
+.about-me-sec {
+  background-color: #ffdbc19d;
+  text-align: center;
+  width: 100%;
+  height: 510px;
+  border-radius: 8px;
+  padding-top: 120px;
+}
+
+.about-container {
+  border: 1px dashed orange;
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0px 3px 5px 2px rgb(252, 209, 130);
+  border-radius: 7px;
+}
+.about-para {
+  text-align: justify;
+  padding: 0 15px;
+}
+
+.contact-details {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  font-size: 15px;
+}
+.items-value {
+  font-weight: 600;
+}
+
+/* SKILL section */
+.skills-sec {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  /* text-align: center; */
+  border-radius: 9px;
+  padding: 0 10px;
+}
+.skills-sec .section-title {
+  text-align: center;
+}
+.skills-sec > p {
+  padding: 0 160px;
+  color: rgb(85, 75, 75);
+  font-size: 13px;
+  text-align: center;
+}
+.skill-set {
+  display: flex;
+  margin-top: 50px;
+  gap: 12px;
+  padding-bottom: 9px;
+}
+.skills {
+    flex-basis: 25%;
+  padding: 20px;
+  border: 1px solid rgb(241, 207, 142);
+  box-shadow: 0px 3px 5px 2px #ff8731;
+border-radius: 9px;
+background-color: #ffe7d6;
+}
+.skills h3{
+    font-size: 17px;
+    margin-top: 15px;
+}
+.skills p{
+    font-size: 13px;
+    color: #757575;
+    margin-top: 30px;
+}
+
+/* RESUME section */
+.resume-sec > h2{
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 15px;
+}
+.column-title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.resu-card-title{
+    font-size: 26px;
+    font-weight: 500;
+    color: #474747;
+}
+.resu-card-sub-title{
+    font-size: 18px;
+    font-weight: 500;
+    color:#757575;
+}
+.resume-card{
+    margin: 20px 0;
+}
+.section-description{
+    font-size: 14px;
+    margin-top: 25px;
+}
+.resu-download{
+    margin-top: 40px;
+    /* display: block; */
+    text-align: center;
 }
